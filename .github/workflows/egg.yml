@@ -1,10 +1,10 @@
 on: push
 
-iobs:
+jobs:
   job1:
     steps:
       - run: pwd
       - run: ls
-  iob2:
+  job2:
     steps:
       - run: node --version
